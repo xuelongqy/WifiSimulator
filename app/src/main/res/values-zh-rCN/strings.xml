@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WIFI 模拟器</string>
+    <string name="setup">设置</string>
+    <string name="use">使用</string>
+    <string name="connectStatus">连接状态</string>
+    <string name="wifiName">WIFI名字</string>
+    <string name="bssid">BSSID</string>
+    <string name="ip">IP</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="successfulSimulation">信息模拟成功</string>
+    <string name="failureSimulation">模拟失败,请输入正确的WIFI信息</string>
+    <string name="active">Xposed激活状态</string>
+    <string name="simulationStatus">模拟状态</string>
+    <string name="cancelSimulation">取消模拟</string>
+    <string name="appList">应用列表</string>
+    <string name="toActiveXposed">请安装 Xposed或者VirtualXposed,并激活软件</string>
+    <string name="supportMe">支持我</string>
+    <string name="supportMode">请选择支持方式</string>
+    <string name="githubStar">Github点赞</string>
+    <string name="aliPay">支付宝</string>
+    <string name="alipayNotFound">你没有安装支付宝</string>
+</resources>

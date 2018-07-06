@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">WIFI Simulator</string>
+    <string name="setup">Set up</string>
+    <string name="use">Use</string>
+    <string name="connectStatus">Connect status</string>
+    <string name="wifiName">WIFI name</string>
+    <string name="bssid">BSSID</string>
+    <string name="ip">IP</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="successfulSimulation">Successful simulation</string>
+    <string name="failureSimulation">Failure simulation,please enter the correct wifi information</string>
+    <string name="active">Xposed activated state</string>
+    <string name="simulationStatus">Simulation status</string>
+    <string name="cancelSimulation">Cancel the simulation</string>
+    <string name="appList">App list</string>
+    <string name="toActiveXposed">Please install Xposed or VirtualXposed and activate the software.</string>
+    <string name="supportMe">Support me</string>
+    <string name="supportMode">Select support mode</string>
+    <string name="githubStar">Github star</string>
+    <string name="aliPay">Alipay</string>
+    <string name="alipayNotFound">Alipay not found.</string>
+</resources>
