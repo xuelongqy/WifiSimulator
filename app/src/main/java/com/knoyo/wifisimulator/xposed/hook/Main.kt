@@ -57,8 +57,6 @@ class Main: IXposedHookZygoteInit, IXposedHookLoadPackage {
                 val mContext = param.args[0] as Context
                 // 获取配置
                 val wifiInfoPrefs = WifiInfoPrefs(mContext)
-                // 判断是否开启模拟
-                if (!wifiInfoPrefs.isSimulation) return
                 // 开始hook
                 when (lpparam.packageName) {
                     // 此应用(WIFI模拟器)
@@ -66,6 +64,8 @@ class Main: IXposedHookZygoteInit, IXposedHookLoadPackage {
                         WifiSimulator.initXposedActive(lpparam)
                     }
                 }
+                // 判断是否开启模拟
+                if (!wifiInfoPrefs.isSimulation) return
                 // 判断模拟WIFI应用列表是否包含此应用
                 if (wifiInfoPrefs.apps.contains(lpparam.packageName)) {
                     fakeWifiConnection.initFakeWifiConnection(lpparam)
