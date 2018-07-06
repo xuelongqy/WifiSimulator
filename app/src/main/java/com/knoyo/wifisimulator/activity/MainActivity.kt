@@ -1,6 +1,5 @@
 package com.knoyo.wifisimulator.activity
 
-import android.app.PendingIntent.getActivity
 import android.content.Context
 import android.content.IntentFilter
 import android.net.ConnectivityManager
